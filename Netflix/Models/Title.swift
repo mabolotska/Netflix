@@ -13,7 +13,7 @@ struct TrendingMoviesResponse: Codable {
 }
 
 struct Movie: Codable {
-    let id: Int
+   let id: Int
     let media_type: String?
     let original_name: String?
     let original_title: String?
@@ -23,3 +23,7 @@ struct Movie: Codable {
     let release_date: String?
     let vote_average: Double
 }
+
+
+ 
+  
